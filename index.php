@@ -29,5 +29,5 @@ foreach ($events as $event) {
   }
   $bot->replyText($event->getReplyToken(), $event->getText());
 }
-
+TEST
  ?>
